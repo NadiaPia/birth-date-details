@@ -37,11 +37,11 @@ function App() {
   }
 
   return (
-    <div class="flex items-center justify-center h-screen bg-zinc-700">
+    <div class="flex items-center justify-center h-screen bg-zinc-700 pb-2">
       <div class="bg-zinc-800 p-2 mx-6 rounded-2xl w-96">
         {/* -------------Flex Container---------------------- */}
         <div class="flex flex-col rounded-l-xl">
-          <img src={heroImage} alt="" class="object-cover rounded-xl h-80" />
+          <img src={heroImage} alt="" class=" rounded-b-none object-cover rounded-xl h-80" />
 
           <div class="p-6">
             <h2 class="font-serif text-xl font-medium text-center text-white">
@@ -66,7 +66,7 @@ function App() {
             </div>
 
             {min && (
-              <div class="max-w-xs my-4 text-s leading-8 tracking-wide text-start text-white">
+              <div class="max-w-xs my-2 text-s leading-7 tracking-wide text-start text-white">
                 {/* <div>{currentDateMls - randomDateMls}</div> */}
 
                 <p class="font-serif text-l font-medium text-center text-white">
